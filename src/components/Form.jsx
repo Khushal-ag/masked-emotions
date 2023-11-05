@@ -1,9 +1,7 @@
-import { Link } from "lucide-react";
-
 function Form({ story, setStory, submitting, handleSubmit }) {
   return (
     <section className="flex w-full flex-col items-center justify-between pt-4">
-      <h1 className="head_text orange_gradient text-left"> Post your story</h1>
+      <h1 className="head_text blue_gradient text-left"> Post your story</h1>
       <p className="desc max-w-md text-left">
         Where emotions overpower masks. So fade your masks.
       </p>
@@ -24,6 +22,30 @@ function Form({ story, setStory, submitting, handleSubmit }) {
           ></input>
         </label>
         <label>
+          <span className="font-satoshi text-base font-semibold text-gray-700">
+            Your Locality
+          </span>
+          <input
+            value={story.location}
+            onChange={(e) => setStory({ ...story, location: e.target.value })}
+            placeholder="#Location"
+            required
+            className="form_input"
+          ></input>
+        </label>
+        <label>
+          <span className="font-satoshi text-base font-semibold text-gray-700">
+            Type of Abuse
+          </span>
+          <input
+            value={story.type}
+            onChange={(e) => setStory({ ...story, type: e.target.value })}
+            placeholder="#Type"
+            required
+            className="form_input"
+          ></input>
+        </label>
+        <label>
           <span className="font-satoshi mb-6 text-base font-semibold text-gray-700">
             Pen Your Story
           </span>
@@ -39,7 +61,7 @@ function Form({ story, setStory, submitting, handleSubmit }) {
           <button
             type="submit"
             disabled={submitting}
-            className=" rounded-full bg-gradient-to-r from-orange-400 to-orange-500 px-5 py-1.5 text-lg font-semibold tracking-wide text-white"
+            className=" rounded-full bg-gradient-to-r from-blue-600 to-cyan-600 px-5 py-1.5 text-lg font-semibold tracking-wide text-white"
           >
             Post
           </button>

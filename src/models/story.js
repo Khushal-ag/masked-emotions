@@ -5,6 +5,14 @@ const StorySchema = new Schema({
     type: String,
     required: true,
   },
+  location: {
+    type: String,
+    required: true,
+  },
+  type: {
+    type: String,
+    required: true,
+  },
   content: {
     type: String,
     required: true,

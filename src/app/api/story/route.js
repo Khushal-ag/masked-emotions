@@ -5,7 +5,6 @@ export const GET = async () => {
   try {
     await connectToDB();
     const stories = await Story.find({});
-    console.log(stories);
     return new Response(JSON.stringify(stories), { status: 200 });
   } catch (err) {
     console.log(err);

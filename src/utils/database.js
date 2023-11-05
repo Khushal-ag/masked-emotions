@@ -9,9 +9,12 @@ export const connectToDB = async () => {
     return;
   }
   try {
-    await mongoose.connect("mongodb://localhost:27017", {
-      dbName: process.env.MONGODB_DB,
-    });
+    await mongoose.connect(
+      process.env.MONGO_URI || "mongodb://localhost:27017",
+      {
+        dbName: process.env.MONGODB_DB,
+      }
+    );
     isConnected = true;
     console.log("Database connected");
   } catch (err) {

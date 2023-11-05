@@ -12,6 +12,8 @@ function CreateStory() {
   const [story, setStory] = useState({
     title: "",
     content: "",
+    type: "",
+    location: "",
   });
   const createStory = async (e) => {
     try {
@@ -19,6 +21,8 @@ function CreateStory() {
         method: "POST",
         body: JSON.stringify({
           title: story.title,
+          location: story.location,
+          type: story.type,
           content: story.content,
         }),
       });
