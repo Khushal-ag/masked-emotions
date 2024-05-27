@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   lucide-react:
-    specifier: ^0.378.0
-    version: 0.378.0(react@18.3.1)
+    specifier: ^0.379.0
+    version: 0.379.0(react@18.3.1)
   mongodb:
     specifier: ^6.6.2
     version: 6.6.2
@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^20.12.12
     version: 20.12.12
   '@types/react':
-    specifier: ^18.3.2
-    version: 18.3.2
+    specifier: ^18.3.3
+    version: 18.3.3
   '@types/react-dom':
     specifier: ^18.3.0
     version: 18.3.0
@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.0)
   eslint-plugin-tailwindcss:
-    specifier: ^3.15.2
-    version: 3.15.2(tailwindcss@3.4.3)
+    specifier: ^3.17.0
+    version: 3.17.0(tailwindcss@3.4.3)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -525,11 +525,11 @@ packages:
   /@types/react-dom@18.3.0:
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
-      '@types/react': 18.3.2
+      '@types/react': 18.3.3
     dev: true
 
-  /@types/react@18.3.2:
-    resolution: {integrity: sha512-Btgg89dAnqD4vV7R3hlwOxgqobUQKgx3MmrQRi0yYbs/P0ym8XozIAlkqVilPqHQwXs4e9Tf63rrCgl58BcO4w==}
+  /@types/react@18.3.3:
+    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
     dependencies:
       '@types/prop-types': 15.7.9
       csstype: 3.1.2
@@ -1346,9 +1346,9 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: true
 
-  /eslint-plugin-tailwindcss@3.15.2(tailwindcss@3.4.3):
-    resolution: {integrity: sha512-+HJfWcyP5B/e8r8qVSaTbf2i4+HsESJJsue66qFHRstV11CNTfdaDD9zkCVA1pm2EplBZ/BSJ3Htfzvb4YTVKw==}
-    engines: {node: '>=12.13.0'}
+  /eslint-plugin-tailwindcss@3.17.0(tailwindcss@3.4.3):
+    resolution: {integrity: sha512-Ofl7tNh57a3W8BKHstKZSkD2gSCEkw54ycwZ958IK9zUR8TiNYdp8b0WGoLWLeyOAbeF1VPVJFBnlkJeIM2kVg==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
     dependencies:
@@ -2057,8 +2057,8 @@ packages:
     dependencies:
       yallist: 4.0.0
 
-  /lucide-react@0.378.0(react@18.3.1):
-    resolution: {integrity: sha512-u6EPU8juLUk9ytRcyapkWI18epAv3RU+6+TC23ivjR0e+glWKBobFeSgRwOIJihzktILQuy6E0E80P2jVTDR5g==}
+  /lucide-react@0.379.0(react@18.3.1):
+    resolution: {integrity: sha512-KcdeVPqmhRldldAAgptb8FjIunM2x2Zy26ZBh1RsEUcdLIvsEmbcw7KpzFYUy5BbpGeWhPu9Z9J5YXfStiXwhg==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
