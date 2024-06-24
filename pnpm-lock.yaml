@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   lucide-react:
-    specifier: ^0.395.0
-    version: 0.395.0(react@18.3.1)
+    specifier: ^0.396.0
+    version: 0.396.0(react@18.3.1)
   mongodb:
     specifier: ^6.7.0
     version: 6.7.0
   mongoose:
-    specifier: ^8.4.1
-    version: 8.4.1
+    specifier: ^8.4.3
+    version: 8.4.3
   next:
     specifier: 14.2.4
     version: 14.2.4(@babel/core@7.24.0)(react-dom@18.3.1)(react@18.3.1)
@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^4.2.1
     version: 4.2.1(prettier@3.3.2)
   '@types/node':
-    specifier: ^20.14.2
-    version: 20.14.2
+    specifier: ^20.14.8
+    version: 20.14.8
   '@types/react':
     specifier: ^18.3.3
     version: 18.3.3
@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.0)
   eslint-plugin-tailwindcss:
-    specifier: ^3.17.3
-    version: 3.17.3(tailwindcss@3.4.4)
+    specifier: ^3.17.4
+    version: 3.17.4(tailwindcss@3.4.4)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -62,8 +62,8 @@ devDependencies:
     specifier: ^3.3.2
     version: 3.3.2
   prettier-plugin-tailwindcss:
-    specifier: ^0.6.4
-    version: 0.6.4(@ianvs/prettier-plugin-sort-imports@4.2.1)(prettier@3.3.2)
+    specifier: ^0.6.5
+    version: 0.6.5(@ianvs/prettier-plugin-sort-imports@4.2.1)(prettier@3.3.2)
   tailwind-merge:
     specifier: ^2.3.0
     version: 2.3.0
@@ -543,8 +543,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.14.2:
-    resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
+  /@types/node@20.14.8:
+    resolution: {integrity: sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1397,8 +1397,8 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.3(tailwindcss@3.4.4):
-    resolution: {integrity: sha512-DVMVVUFQ+lPraRSuUk2I41XMnusXT6b3WaQZYlUHduULnERaqe9sNfmpRY1IyxlzmKoQxSbZ8IHRhl9ePo8PeA==}
+  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.4):
+    resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
@@ -2135,8 +2135,8 @@ packages:
     dependencies:
       yallist: 4.0.0
 
-  /lucide-react@0.395.0(react@18.3.1):
-    resolution: {integrity: sha512-6hzdNH5723A4FLaYZWpK50iyZH8iS2Jq5zuPRRotOFkhu6kxxJiebVdJ72tCR5XkiIeYFOU5NUawFZOac+VeYw==}
+  /lucide-react@0.396.0(react@18.3.1):
+    resolution: {integrity: sha512-N/zP+9vEfEYHiMWMpjwH/M5diaV0e4UFe07BpgdzaRYce5QvXi87hixf7F0Xqdr3zuX/9u7H/2D4MVXIK22O0A==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -2253,8 +2253,8 @@ packages:
       mongodb-connection-string-url: 3.0.0
     dev: false
 
-  /mongoose@8.4.1:
-    resolution: {integrity: sha512-odQ2WEWGL3hb0Qex+QMN4eH6D34WdMEw7F1If2MGABApSDmG9cMmqv/G1H6WsXmuaH9mkuuadW/WbLE5+tHJwA==}
+  /mongoose@8.4.3:
+    resolution: {integrity: sha512-GxPVLD+I/dxVkgcts2r2QmJJvS62/++btVj3RFt8YnHt+DSOp1Qjj62YEvgZaElwIOTcc4KGJM95X5LlrU1qQg==}
     engines: {node: '>=16.20.1'}
     dependencies:
       bson: 6.7.0
@@ -2673,8 +2673,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-tailwindcss@0.6.4(@ianvs/prettier-plugin-sort-imports@4.2.1)(prettier@3.3.2):
-    resolution: {integrity: sha512-3vhbIvlKyAWPaw9bUr2cw6M1BGx2Oy9CCLJyv+nxEiBGCTcL69WcAz2IFMGqx8IXSzQCInGSo2ujAByg9poHLQ==}
+  /prettier-plugin-tailwindcss@0.6.5(@ianvs/prettier-plugin-sort-imports@4.2.1)(prettier@3.3.2):
+    resolution: {integrity: sha512-axfeOArc/RiGHjOIy9HytehlC0ZLeMaqY09mm8YCkMzznKiDkwFzOpBvtuhuv3xG5qB73+Mj7OCe2j/L1ryfuQ==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
