@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   lucide-react:
-    specifier: ^0.452.0
-    version: 0.452.0(react@18.3.1)
+    specifier: ^0.453.0
+    version: 0.453.0(react@18.3.1)
   mongodb:
     specifier: ^6.9.0
     version: 6.9.0
   mongoose:
-    specifier: ^8.7.1
-    version: 8.7.1
+    specifier: ^8.7.2
+    version: 8.7.2
   next:
     specifier: 14.2.15
     version: 14.2.15(@babel/core@7.24.0)(react-dom@18.3.1)(react@18.3.1)
@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^4.3.1
     version: 4.3.1(prettier@3.3.3)
   '@types/node':
-    specifier: ^20.16.11
-    version: 20.16.11
+    specifier: ^20.16.13
+    version: 20.16.13
   '@types/react':
     specifier: ^18.3.11
     version: 18.3.11
@@ -54,7 +54,7 @@ devDependencies:
     version: 9.1.0(eslint@8.57.1)
   eslint-plugin-tailwindcss:
     specifier: ^3.17.5
-    version: 3.17.5(tailwindcss@3.4.13)
+    version: 3.17.5(tailwindcss@3.4.14)
   postcss:
     specifier: ^8.4.47
     version: 8.4.47
@@ -65,11 +65,11 @@ devDependencies:
     specifier: ^0.6.8
     version: 0.6.8(@ianvs/prettier-plugin-sort-imports@4.3.1)(prettier@3.3.3)
   tailwind-merge:
-    specifier: ^2.5.3
-    version: 2.5.3
+    specifier: ^2.5.4
+    version: 2.5.4
   tailwindcss:
-    specifier: ^3.4.13
-    version: 3.4.13
+    specifier: ^3.4.14
+    version: 3.4.14
 
 packages:
 
@@ -534,8 +534,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.16.11:
-    resolution: {integrity: sha512-y+cTCACu92FyA5fgQSAI8A1H429g7aSK2HsO7K4XYUWc4dY5IUz55JSDIYT6/VsOLfGy8vmvQYC2hfb0iF16Uw==}
+  /@types/node@20.16.13:
+    resolution: {integrity: sha512-GjQ7im10B0labo8ZGXDGROUl9k0BNyDgzfGpb4g/cl+4yYDWVKcozANF4FGr4/p0O/rAkQClM6Wiwkije++1Tg==}
     dependencies:
       undici-types: 6.19.6
     dev: true
@@ -1524,7 +1524,7 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.5(tailwindcss@3.4.13):
+  /eslint-plugin-tailwindcss@3.17.5(tailwindcss@3.4.14):
     resolution: {integrity: sha512-8Mi7p7dm+mO1dHgRHHFdPu4RDTBk69Cn4P0B40vRQR+MrguUpwmKwhZy1kqYe3Km8/4nb+cyrCF+5SodOEmaow==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -1532,7 +1532,7 @@ packages:
     dependencies:
       fast-glob: 3.3.1
       postcss: 8.4.47
-      tailwindcss: 3.4.13
+      tailwindcss: 3.4.14
     dev: true
 
   /eslint-scope@7.2.2:
@@ -2262,8 +2262,8 @@ packages:
     dependencies:
       yallist: 4.0.0
 
-  /lucide-react@0.452.0(react@18.3.1):
-    resolution: {integrity: sha512-kNefjOUOGm+Mu3KDiryONyPba9r+nhcrz5oJs3N6JDzGboQNEXw5GB3yB8rnV9/FA4bPyggNU6CRSihZm9MvSw==}
+  /lucide-react@0.453.0(react@18.3.1):
+    resolution: {integrity: sha512-kL+RGZCcJi9BvJtzg2kshO192Ddy9hv3ij+cPrVPWSRzgCWCVazoQJxOjAwgK53NomL07HB7GPHW120FimjNhQ==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
     dependencies:
@@ -2355,8 +2355,8 @@ packages:
       mongodb-connection-string-url: 3.0.0
     dev: false
 
-  /mongoose@8.7.1:
-    resolution: {integrity: sha512-RpNMyhyzLVCVbf8xTVbrf/18G3MqQzNw5pJdvOJ60fzbCa3cOZzz9L+8XpqzBXtRlgZGWv0T7MmOtvrT8ocp1Q==}
+  /mongoose@8.7.2:
+    resolution: {integrity: sha512-Ok4VzMds9p5G3ZSUhmvBm1GdxanbzhS29jpSn02SPj+IXEVFnIdfwAlHHXWkyNscZKlcn8GuMi68FH++jo0flg==}
     engines: {node: '>=16.20.1'}
     dependencies:
       bson: 6.7.0
@@ -3200,12 +3200,12 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwind-merge@2.5.3:
-    resolution: {integrity: sha512-d9ZolCAIzom1nf/5p4LdD5zvjmgSxY0BGgdSvmXIoMYAiPdAW/dSpP7joCDYFY7r/HkEa2qmPtkgsu0xjQeQtw==}
+  /tailwind-merge@2.5.4:
+    resolution: {integrity: sha512-0q8cfZHMu9nuYP/b5Shb7Y7Sh1B7Nnl5GqNr1U+n2p6+mybvRtayrQ+0042Z5byvTA8ihjlP8Odo8/VnHbZu4Q==}
     dev: true
 
-  /tailwindcss@3.4.13:
-    resolution: {integrity: sha512-KqjHOJKogOUt5Bs752ykCeiwvi0fKVkr5oqsFNt/8px/tA8scFPIlkygsf6jXrfCqGHz7VflA6+yytWuM+XhFw==}
+  /tailwindcss@3.4.14:
+    resolution: {integrity: sha512-IcSvOcTRcUtQQ7ILQL5quRDg7Xs93PdJEk1ZLbhhvJc7uj/OAhYOnruEiwnGgBvUtaUAJ8/mhSw1o8L2jCiENA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
