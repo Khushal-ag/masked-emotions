@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   lucide-react:
-    specifier: ^0.488.0
-    version: 0.488.0(react@18.3.1)
+    specifier: ^0.501.0
+    version: 0.501.0(react@18.3.1)
   mongodb:
     specifier: ^6.15.0
     version: 6.15.0
@@ -2087,8 +2087,8 @@ packages:
     dependencies:
       yallist: 4.0.0
 
-  /lucide-react@0.488.0(react@18.3.1):
-    resolution: {integrity: sha512-ronlL0MyKut4CEzBY/ai2ZpKPxyWO4jUqdAkm2GNK5Zn3Rj+swDz+3lvyAUXN0PNqPKIX6XM9Xadwz/skLs/pQ==}
+  /lucide-react@0.501.0(react@18.3.1):
+    resolution: {integrity: sha512-E2KoyhW59fCb/yUbR3rbDer83fqn7a8NG91ZhIot2yWaPHjPyGzzsNKh40N//GezYShAuycf3TcQksRQznIsRw==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
