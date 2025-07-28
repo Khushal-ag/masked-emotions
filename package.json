@@ -16,9 +16,9 @@
     "fmt:write": "prettier --write \"**/*.{ts,tsx,mdx,json}\" --cache"
   },
   "dependencies": {
-    "lucide-react": "^0.525.0",
-    "mongodb": "^6.17.0",
-    "mongoose": "^8.16.4",
+    "lucide-react": "^0.526.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.16.5",
     "next": "14.2.30",
     "next-auth": "^4.24.11",
     "react": "^18.3.1",
