@@ -16,10 +16,10 @@
     "fmt:write": "prettier --write \"**/*.{ts,tsx,mdx,json}\" --cache"
   },
   "dependencies": {
-    "lucide-react": "^0.526.0",
+    "lucide-react": "^0.536.0",
     "mongodb": "^6.18.0",
-    "mongoose": "^8.16.5",
-    "next": "14.2.30",
+    "mongoose": "^8.17.0",
+    "next": "14.2.31",
     "next-auth": "^4.24.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -31,7 +31,7 @@
     "@types/react-dom": "^18.3.7",
     "autoprefixer": "^10.4.21",
     "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.30",
+    "eslint-config-next": "14.2.31",
     "eslint-config-prettier": "^9.1.2",
     "eslint-plugin-tailwindcss": "^3.18.2",
     "postcss": "^8.5.6",
