@@ -9,11 +9,11 @@ dependencies:
     specifier: ^0.577.0
     version: 0.577.0(react@18.3.1)
   mongodb:
-    specifier: ^6.21.0
-    version: 6.21.0
+    specifier: ^6.22.0
+    version: 6.22.0
   mongoose:
-    specifier: ^8.24.7
-    version: 8.24.7
+    specifier: ^8.24.8
+    version: 8.24.8
   next:
     specifier: 14.2.35
     version: 14.2.35(react-dom@18.3.1)(react@18.3.1)
@@ -2257,8 +2257,8 @@ packages:
       mongodb-connection-string-url: 3.0.2
     dev: false
 
-  /mongodb@6.21.0:
-    resolution: {integrity: sha512-URyb/VXMjJ4da46OeSXg+puO39XH9DeQpWCslifrRn9JWugy0D+DvvBvkm2WxmHe61O/H19JM66p1z7RHVkZ6A==}
+  /mongodb@6.22.0:
+    resolution: {integrity: sha512-k9YPpPXZEVyT4kjglCen99LCDToxzM+R89x3cMp8kSWb1gnXDvrsEJQh3FQ4t4jS9+ZA4yBOojHNS1oAB5qwQg==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.188.0
@@ -2289,8 +2289,8 @@ packages:
       mongodb-connection-string-url: 3.0.2
     dev: false
 
-  /mongoose@8.24.7:
-    resolution: {integrity: sha512-+hrEOLpLGPgOt7S/UrcBAKZ4gvB6+5qf16jspWH5xQ8WtQu9lRTzcqy04ZNQrlIox4Pl6Nh2RzlNDPSOFw9rng==}
+  /mongoose@8.24.8:
+    resolution: {integrity: sha512-p6g/mvvW2PJlC3lgzQJ7PECArfaOTKWJVG/KHf67WYU3MvJ72ZWdv5u7syFRe881IjALMZpKwffNE97G10HTzg==}
     engines: {node: '>=16.20.1'}
     dependencies:
       bson: 6.10.4
